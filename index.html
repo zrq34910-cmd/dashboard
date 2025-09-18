@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="/images.jpg">
+</head>
+
+<body>
+    <nav>
+        <a href="#home"><i class="fa-solid fa-house"></i>Home</a>
+        <a href="#history"><i class="fa-solid fa-note-sticky"></i>Applied History</a>
+        <a href="#job"><i class="fa-solid fa-bookmark"></i>Job Bookmark</a>
+        <a href="#interview"><i class="fa-solid fa-calendar"></i>Interview Schedule</a>
+        <a href="#profile"><i class="fa-solid fa-user"></i>Profile</a>
+        <a href="#setting"><i class="fa-solid fa-gear"></i>Setting</a>
+    </nav>
+    <header>
+        <div class="search-area"><i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="email" placeholder="Search for anything...">
+        </div>
+
+        <div class="user-area">
+            <a href="#" class="add">+ Add</a>
+
+            <a href="#"><i class="fa-solid fa-bell"></i><sup class="circle">3</sup>
+            </a>
+
+            <a href="#"><img class="user-img" src="./images.jpg" alt="txt"></a>
+
+            <a href="#"><i class="fa-solid fa-caret-down"></i></a>
+        </div>
+    </header>
+
+    <section class="content-area">
+        <div class="heading">
+            <h1>Dashboard</h1>
+            <p>Welcome to GoJobs seeker dashboard</p>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div id="profile">
+                    <img src="./images.jpg" alt="fu"><br><br>
+                    <h3 style="color: #5e548f;">Zain Raza</h3>
+                    <p style="margin-top: 9px;">Frontend Developer</p>
+                </div><br>
+                <hr><br>
+                <div class="education">
+                    <p><strong style="margin-right: 20px;">Previous</strong> PGC for boys ,Islamabad.</p>
+                    <p><strong style="margin-right: 27px;">Current</strong> FUUAST
+                        ,Islamabad.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <h4 class="sp">Interview Schedule<a href="#"><i class="fa-solid fa-ellipsis"></i></a></h4>
+                </div>
+
+                <h3 id="date">12 Sep, 2025</h3>
+
+                <p id="Interviews">
+                    <span id="circle">01</span>
+                    <span id="company">online travel & ticketing center.</span><br>
+                    <strong>senior UI/UX designer</strong><br>
+                    <span id="time">06:00 PM - 07:00 PM</span>
+                </p>
+
+                <p id="Interviews">
+                    <span id="circle">02</span>
+                    <span id="company">online shopping & e-commerce.</span><br>
+                    <strong>senior UI/UX designer</strong><br>
+                    <span id="time">06:00 PM - 07:00 PM</span>
+                </p>
+            </div>
+            <div class="card">
+                <div>
+                    <h4 class="sp">Job Bookmark<a href="#">chart</a></h4>
+                </div>
+
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>COMPANY</th>
+                    <th>JOBS</th>
+                    <th>END OF APPLICATION</th>
+                    <th>LOCATION</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="logo">OS</span>online shopping & e-commerce</td>
+                    <td>java developer</td>
+                    <td>27 june, 2016</td>
+                    <td>bali</td>
+                    <td><a href="#"><i class="fa-solid fa-ellipsis"></i></a></td>
+
+                </tr>
+                <tr>
+                    <td><span class="logo">DS</span>digital marketing solutions</td>
+                    <td>backend developer</td>
+                    <td>27 june, 2016</td>
+                    <td>jakarta</td>
+                    <td><a href="#"><i class="fa-solid fa-ellipsis"></i></a></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </section>
+
+
+</body>
+
+</html>
